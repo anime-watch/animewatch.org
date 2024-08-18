@@ -62,17 +62,30 @@ p {
     background: rgba(255, 255, 255, 0.2);
     transition: transform 0.3s;
 }
-
+.social-link-wp {
+    margin: 0 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s;
+}
 .social-link img {
-    width: 28px;
-    height: 20px;
+    width: 32px;
+    height: 32px;
 }
 
 .social-link-patreon img {
     width: 158px;
     height: 90px;
 }
-
+.social-link-wp img {
+    width: 32px;
+    height: 32px;
+}
 .social-link:hover {
     transform: scale(1.1);
 }
@@ -81,12 +94,29 @@ p {
     transform: scale(1.1);
 }
 
+.social-link-wp:hover {
+    transform: scale(1.1);
+}
 .social-link:nth-child(1) {
     background-color: rgba(29, 161, 242, 0.5);
 }
-
+.social-link:nth-child(2) {
+    background-color: rgba(255, 0, 234, 0.5);
+}
+.social-link:nth-child(3) {
+    background-color: rgba(0, 0, 0, 0.651);
+}
+.social-link:nth-child(4) {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.social-link:nth-child(5) {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.social-link-wp {
+    background-color: rgba(10, 255, 22, 0.418);
+}
 .social-link-patreon {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.753);
 }
 
 a {
@@ -115,7 +145,11 @@ a:hover {
     }
 
     .social-link img {
-        width: 28px;
-        height: 21px;
+        width: 25px;
+        height: 25px;
+    }
+    .social-link-wp img {
+        width: 25px;
+        height: 25px;
     }
 }
